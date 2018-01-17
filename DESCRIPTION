@@ -1,0 +1,17 @@
+Package: RBDmap
+Type: Package
+Title: RBDmap
+Version: 0.0.17
+Author: Bernd Fischer
+Maintainer: Bernd Fischer <bernd.fischer@embl.de>
+Description: RBDmap functions.
+License: Artistic-2.0
+LazyLoad: true
+Imports: Biostrings, Biobase, biomaRt, geneplotter, hwriter, grid,
+        gridSVG, RColorBrewer
+Depends: R (>= 2.10)
+Suggests: BiocStyle
+SystemRequirements: GNU make
+biocViews: Infrastructure
+NeedsCompilation: no
+Packaged: 2015-05-15 15:44:30 UTC; fischebe
